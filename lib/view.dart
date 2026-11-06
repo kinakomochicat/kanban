@@ -4,7 +4,7 @@ import 'view_model.dart';
 
 final names = ['👀 観たい', '🎬 鑑賞中', '🎞️ 観終わった'];
 final labels = ['未', '鑑賞中', '完了'];
-final colors = [Colors.blue.shade50, Colors.orange.shade50, Colors.green.shade50];
+final colors = [Color(0xFFFFE4EC), Color(0xFFECE5FF), Color(0xFFE0F2E9),];
 
 class KanbanView extends StatefulWidget {
   final KanbanViewModel vm;
